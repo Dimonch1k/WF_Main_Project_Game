@@ -8,24 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\leski\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Support\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leski\\OneDrive\\Desktop\\Git\\WF_Main_Project_Game\\WF_Main_Project\\WF_Main_Project\\WF_Main_Project.csproj",
+      "projectUniqueName": "C:\\Users\\Support\\Desktop\\Git\\WF_Main_Project_Game\\WF_Main_Project\\WF_Main_Project\\WF_Main_Project.csproj",
       "projectName": "WF_Main_Project",
-      "projectPath": "C:\\Users\\leski\\OneDrive\\Desktop\\Git\\WF_Main_Project_Game\\WF_Main_Project\\WF_Main_Project\\WF_Main_Project.csproj",
-      "packagesPath": "C:\\Users\\leski\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leski\\OneDrive\\Desktop\\Git\\WF_Main_Project_Game\\WF_Main_Project\\WF_Main_Project\\obj\\",
+      "projectPath": "C:\\Users\\Support\\Desktop\\Git\\WF_Main_Project_Game\\WF_Main_Project\\WF_Main_Project\\WF_Main_Project.csproj",
+      "packagesPath": "C:\\Users\\Support\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Support\\Desktop\\Git\\WF_Main_Project_Game\\WF_Main_Project\\WF_Main_Project\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\leski\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Support\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -74,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

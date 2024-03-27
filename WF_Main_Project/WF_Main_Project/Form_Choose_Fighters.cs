@@ -108,7 +108,7 @@
         // Timer Tick
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (choose_fighter2_btn.Text == "Choose Fighter 1" || choose_fighter2_btn.Text == "Choose Fighter 2")
+            if (choose_fighter1_btn.Text == "Click to choose 1" || choose_fighter2_btn.Text == "Click to choose 2")
             {
                 Continue_btn.Enabled = false;
                 Continue_btn.Cursor = Cursors.No;

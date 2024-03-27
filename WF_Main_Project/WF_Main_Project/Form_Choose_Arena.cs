@@ -26,6 +26,11 @@
 
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void Continue_btn_Click(object sender, EventArgs e)
         {
             timer1.Stop();
@@ -35,6 +40,17 @@
             form.Location = this.Location;
             form.Show();
             this.Hide();
+        }
+
+
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
         }
     }
 }

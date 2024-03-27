@@ -47,9 +47,10 @@
             Continue_btn.Cursor = Cursors.Hand;
             Continue_btn.Font = new Font("Freestyle Script", 50F, FontStyle.Bold);
             Continue_btn.ForeColor = Color.White;
-            Continue_btn.Location = new Point(260, 979);
+            Continue_btn.Location = new Point(121, 397);
+            Continue_btn.Margin = new Padding(1);
             Continue_btn.Name = "Continue_btn";
-            Continue_btn.Size = new Size(1052, 214);
+            Continue_btn.Size = new Size(491, 87);
             Continue_btn.TabIndex = 8;
             Continue_btn.Text = "Continue";
             Continue_btn.UseVisualStyleBackColor = false;
@@ -61,9 +62,10 @@
             Choose_fighters_label.BackColor = Color.Transparent;
             Choose_fighters_label.Font = new Font("Calibri", 50F, FontStyle.Bold);
             Choose_fighters_label.ForeColor = Color.Green;
-            Choose_fighters_label.Location = new Point(92, 128);
+            Choose_fighters_label.Location = new Point(43, 52);
+            Choose_fighters_label.Margin = new Padding(1, 0, 1, 0);
             Choose_fighters_label.Name = "Choose_fighters_label";
-            Choose_fighters_label.Size = new Size(1401, 205);
+            Choose_fighters_label.Size = new Size(623, 93);
             Choose_fighters_label.TabIndex = 7;
             Choose_fighters_label.Text = "Choose Battleground";
             Choose_fighters_label.UseCompatibleTextRendering = true;
@@ -72,19 +74,23 @@
             // 
             pictureBox1.BackgroundImage = Properties.Resources.forest_bcg;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(33, 477);
+            pictureBox1.Location = new Point(15, 193);
+            pictureBox1.Margin = new Padding(1);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(445, 367);
+            pictureBox1.Size = new Size(208, 149);
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            pictureBox1.MouseHover += pictureBox1_MouseHover;
             // 
             // pictureBox2
             // 
             pictureBox2.BackgroundImage = Properties.Resources.Snow_Arena;
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Location = new Point(569, 477);
+            pictureBox2.Location = new Point(266, 193);
+            pictureBox2.Margin = new Padding(1);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(445, 367);
+            pictureBox2.Size = new Size(208, 149);
             pictureBox2.TabIndex = 10;
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
@@ -94,24 +100,30 @@
             pictureBox3.BackgroundImage = Properties.Resources.choose_battlefield_image;
             pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox3.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox3.Location = new Point(1094, 478);
+            pictureBox3.Location = new Point(511, 194);
+            pictureBox3.Margin = new Padding(1);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(445, 367);
+            pictureBox3.Size = new Size(210, 151);
             pictureBox3.TabIndex = 11;
             pictureBox3.TabStop = false;
             // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
             // Form_Choose_Arena
             // 
-            AutoScaleDimensions = new SizeF(15F, 37F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.moon_image;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1572, 1321);
+            ClientSize = new Size(734, 537);
             Controls.Add(Choose_fighters_label);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(Continue_btn);
+            Margin = new Padding(1);
             Name = "Form_Choose_Arena";
             Text = "Form_Choose_Arena";
             Load += Form_Choose_Arena_Load;
